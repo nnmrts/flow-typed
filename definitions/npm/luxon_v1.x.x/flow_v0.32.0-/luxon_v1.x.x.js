@@ -65,7 +65,7 @@ declare module "luxon" {
 
   declare export class Info {
     static eras(
-      length: EraLength,
+      length?: EraLength,
       options?: {| locale?: ?string |}
     ): Array<string>;
     static features(): {
